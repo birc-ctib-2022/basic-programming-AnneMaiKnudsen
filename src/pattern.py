@@ -9,4 +9,3 @@ for i in range(5):
 for i in range(5):
     liste.remove("*")
     print(" ".join([str(y)for y in liste]))
-
