@@ -9,6 +9,16 @@ count = {}
 # Your code goes here.
 
 
+
+for i in range(len(x)):
+    char=x[i]
+    if char not in count:
+        count[char]=0
+    count[char]+=1
+return count
+
+
+
 # Get the keys, i.e., the characters, in sorted order
 # and print the count
 for a in sorted(count):
