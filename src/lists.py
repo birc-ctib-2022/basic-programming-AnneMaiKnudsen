@@ -58,7 +58,7 @@ match sys.argv[1]:
         even = []
         for i in range(len(x)):
             if x[i]%2==0:
-                even.apeend(x[i])
+                even.append(x[i])
         print_list(even)
 
     case _:
