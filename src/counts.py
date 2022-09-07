@@ -10,8 +10,7 @@ count = {}
 
 
 
-for i in range(len(x)):
-    char=x[i]
+for char in x:
     if char not in count:
         count[char]=0
     count[char]+=1

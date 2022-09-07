@@ -17,8 +17,8 @@ match command:
     for i in range(len(x)):
         n=hex(ord(x[i]))
         y.append(n)
-        encoding = " ".join(y)
-        print(encoding)
+        encoding = "".join(y)
+    print(encoding)
 
     case "decode":
         number=encoding.split("0x")
