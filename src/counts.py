@@ -14,7 +14,7 @@ for char in x:
     if char not in count:
         count[char]=0
     count[char]+=1
-    return count
+
 
 
 
