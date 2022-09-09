@@ -1,11 +1,14 @@
 
 # Print the pattern
 
-liste =[]
-for i in range(5):
-    liste.append("*")
-    print("".join([str(y)for y in liste]))
+stars=[]
+for i in range(9):
+    if i <5:
+        stars.append("*")
+        print(" ".join(stars))
+    else:
+        stars.remove("*")
+        print(" ".join(stars))
 
-for i in range(5):
-    liste.remove("*")
-    print("".join([str(y)for y in liste]))
+
+    #print("".join(*liste))
